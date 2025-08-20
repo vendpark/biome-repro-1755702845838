@@ -5,3 +5,9 @@
  * Once you have a minimal reproduction, commit it and push it to a public
  * GitHub repo.
  */
+
+import * as React from "react";
+
+React.createElement("div", {
+  className: "container",
+});
